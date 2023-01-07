@@ -164,6 +164,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 130px;
+  margin-bottom: 130;
 }
 .footerLeft-ctn {
   max-width: 330px;
