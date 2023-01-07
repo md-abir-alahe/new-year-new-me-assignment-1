@@ -155,6 +155,7 @@ main {
 }
 /* footer */
 footer {
+  margin-top: 130px;
   height: 500px;
   background: #151414;
 }
@@ -164,7 +165,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 130px;
-  margin-bottom: 130;
+  margin-bottom: 130px;
 }
 .footerLeft-ctn {
   max-width: 330px;
