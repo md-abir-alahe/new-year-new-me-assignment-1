@@ -43,7 +43,8 @@
   border: 0.1px solid rgb(255, 255, 255);
 }
 .header-items {
-  margin: 210px 215px 0 600px;
+  max-width: 500px;
+  padding: 100px 215px 0 0;
 }
 .header-title {
   font-weight: 700;
@@ -69,13 +70,15 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 130px;
+  gap: 120px;
+  margin-top: 100px;
 }
 .my-failure-list li {
   list-style: none;
 }
 .my-failures-items {
-  margin-left: 90px;
+  max-width: 400px;
+  /* margin-left: 90px; */
 }
 .my-failures-title {
   font-weight: 700;
@@ -119,18 +122,23 @@ main {
   justify-content: center;
 }
 .myPlanItemCard-img {
-  margin: 0 auto;
+  margin:  auto;
 }
-.myPlanItem-content {
-  font-weight: 700;
-  font-size: 25px;
+.myPlanItem-content{
+  text-align: center;
+  margin-top: 25px;
+}
+.myPlanItem-title {
+ font-weight: 800; 
+  font-size: 30px;
   line-height: 35px;
   text-align: center;
   color: #151414;
+  margin-bottom: 16px;
 }
 .myPlanItemCard-description {
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 29px;
   text-align: center;
   color: #737272;
@@ -153,10 +161,45 @@ main {
   color: #ffffff;
   margin-bottom: 24px;
 }
+/* what I do */
+.wid-section-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+.what-i-do {
+  margin-top: 130px;
+}
+.skills-container {
+  display: flex;
+   gap: 16px;
+  justify-content: space-around;
+
+}
+.skill {
+  background: #ffffff;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 130px;
+  overflow: visible;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+}
 /* footer */
 footer {
-  margin-top: 130px;
-  height: 500px;
+  height: 600px;
   background: #151414;
 }
 .footerDiv {
