@@ -4,10 +4,11 @@
   font-family: "Work Sans", sans-serif;
 }
 .move-right {
-    float: right;
+  float: right;
 }
 .red {
-    color: #16D887;
+  margin-right: 5px;
+  color: #16d887;
 }
 /* buttons styles */
 .primary-btn {
@@ -16,21 +17,31 @@
   line-height: 23px;
   color: #ffffff;
   padding: 20px 25px;
-  background: #F15B22;
+  background: #f15b22;
+  border-radius: 5px;
+  border: none;
+}
+.secondary-btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #f15b22;
+  padding: 20px 36px;
+  background: #ffffff;
   border-radius: 5px;
   border: none;
 }
 /* header styles */
 .header {
-    width: 100%;
-    height: 808px;
-    background-image: url("../images/banner/banner1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 2px solid black;
-  }
+  width: 100%;
+  height: 808px;
+  background-image: url("../images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 2px solid black;
+}
 .header-items {
-    margin: 210px 215px 0 600px ;
+  margin: 210px 215px 0 600px;
 }
 .header-title {
   font-weight: 700;
@@ -48,12 +59,103 @@
   margin-bottom: 32px;
 }
 main {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 /* My Failures styles */
 .my-failures {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+.my-failure-list li {
+  list-style: none;
+}
+.my-failures-items {
+  margin-left: 90px;
+}
+.my-failures-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.my-failure-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+.my-failure-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  padding-left: 0;
+}
+/* my plan section */
+.my-plans {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.my-plan-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  text-align: center;
+}
+.my-plan-items {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+}
+.my-plan-items-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.myPlanItemCard-img {
+  margin: 0 auto;
+}
+.myPlanItem-content {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+}
+.myPlanItemCard-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+/* call now section */
+.callNow-container {
+  width: 1139;
+  height: auto;
+  background-image: url("../images/watch.png"),
+   linear-gradient(90deg, rgba(241, 91, 34, 1) 0%, rgba(3, 2, 2, 0) 100%);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  background-blend-mode: overlay;
+  padding: 60px 600px 60px 65px;
+}
+.callNow-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+/* footer */
+footer {
+  background: #151414;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
